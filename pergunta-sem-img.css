@@ -30,8 +30,8 @@ header img{
 main{
     display: flex;
     height: 90vh;
-    width: 100%;
-    justify-content: center;
+    width: 100vw;
+    justify-content:space-around;
     align-items: center;
     background-color: #F5F5F5;
 }
@@ -44,7 +44,7 @@ main{
 
 .caixa{
     background-color: #ffffff;
-    border: 2px solid #98C897;
+    border: 1px solid #98C897;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -81,7 +81,7 @@ main{
     display: flex;
     text-align: start;
     align-items: center;
-    border: 2px solid #98C897;
+    border: 1px solid #98C897;
     border-radius: 5px;
     margin: 15px 0 15px 0;
     font-family: "Afacad", sans-serif;
@@ -101,4 +101,15 @@ main{
 
 .letra{
     font-weight: 700;
+}
+
+.passar{
+    background-color: #F5F5F5;
+    border: none;
+    transition: transform 0.1s ease;
+}
+
+.passar:hover{
+    cursor: pointer;
+    transform: scale(1.2);
 }
